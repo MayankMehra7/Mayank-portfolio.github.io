@@ -89,6 +89,10 @@ button:focus {
   font-size: 1.2rem !important;
 }
 
+.navbar-copywright {
+  text-align: left !important;
+}
+
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
@@ -418,7 +422,7 @@ button:focus {
   padding-bottom: 8px !important ;
 }
 .footer-copywright {
-  text-align: center !important;
+  text-align: left !important;
 }
 
 .footer-body {

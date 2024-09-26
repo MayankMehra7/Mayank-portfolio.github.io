@@ -42,10 +42,12 @@ function NavBar() {
           <p
             style={{
               color: '#fff',
-              margin: 'auto',
+              margin: 'left',
               fontWeight: '700',
               letterSpacing: '1px',
               fontSize: '28px',
+             
+              
             }}
           >  
         Mayank Mehra
