@@ -160,6 +160,13 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
+
+
+
+
+
+
+
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
@@ -468,6 +475,14 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+
+
+
+
+
+
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -532,10 +547,15 @@ button:focus {
 }
 
 .card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
-  border-radius: 10px !important;
-}
+    padding: 10px !important; /* Reducing padding around the images */
+    opacity: 0.9 !important;   /* Slightly higher opacity for more visibility */
+    border-radius: 20px !important;
+    width: 100% !important;    /* Ensures the image takes the full width of the card */
+    height: 100% !important;   /* Keeps the aspect ratio intact */
+    max-height: 300px;         /* Adjusts the max height to control size */
+    object-fit: cover;         /* Ensures the image fits inside without distortion */
+  }
+  
 
 .blog-img {
   padding: 0px !important;

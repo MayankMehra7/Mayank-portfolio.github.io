@@ -31,7 +31,6 @@ function NavBar() {
       expand="md"
       className={navColour ? 'sticky' : ''}
     >
-
 <Navbar.Brand as={Link} to="/">
           <p
             style={{
@@ -45,7 +44,7 @@ function NavBar() {
             Mayank Mehra
           </p>
 </Navbar.Brand>
-      <Container>
+    <Container>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

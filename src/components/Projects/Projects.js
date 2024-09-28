@@ -15,10 +15,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple"> Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've made recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={stock}
               isBlog={false}
               title="Stock Management"
-              description="A Stock Management app that accepts the amount a user wants to invest and provides recommendations on how to allocate the investment."
+              description="Developed a stock management application with a Streamlit front-end. The application takes an investment amount as input and provides recommendations on the best stocks to buy, along with suggested quantities."
               ghLink="https://github.com/MayankMehra7/Stock-Management-app"
             />
           </Col>
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={cvgame}
               isBlog={false}
               title="Computer Vision Game"
-              description="A game developed using computer vision for interaction and React for the frontend interface."
+              description="Developed a computer vision game using XGBoost and CNN for model processing, with React as the front-end interface, enabling interaction through computer vision techniques."
               ghLink="https://github.com/MayankMehra7/Treasuretrove1.github.io"
               
             />
@@ -80,7 +80,7 @@ function Projects() {
               imgPath={color_detect}
               isBlog={false}
               title="Colour Detection"
-              description="Developed a color detection model "
+              description="Developed a real-time colour detection model using OpenCV that captures live video and applies colour space conversion and thresholding techniques to dynamically identify specific colours. Applications include robotics, industrial sorting and accessibility. "
               ghLink="https://github.com/MayankMehra7/Color-detection"
            
             />
