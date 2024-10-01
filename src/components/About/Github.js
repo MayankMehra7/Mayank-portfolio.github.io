@@ -6,7 +6,19 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+        <a
+          href="https://github.com/MayankMehra7"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            textDecoration: "none", 
+            color: "inherit",
+            cursor: "pointer", // Ensures the link is clickable
+            zIndex: 10, // Ensures the link is on top of other elements
+          }}
+        >
+          Days I <strong className="purple">Code</strong>
+        </a>
       </h1>
       <GitHubCalendar
         username="MayankMehra7"

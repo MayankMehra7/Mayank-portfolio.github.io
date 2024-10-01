@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
@@ -11,7 +11,6 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   
-  // useLocation hook to get the current path
   const location = useLocation();
 
   function scrollHandler() {
@@ -22,7 +21,12 @@ function NavBar() {
     }
   }
 
-  window.addEventListener('scroll', scrollHandler);
+  useEffect(() => {
+    window.addEventListener('scroll', scrollHandler);
+    return () => {
+      window.removeEventListener('scroll', scrollHandler); // Cleanup on unmount
+    };
+  }, []);
 
   return (
     <Navbar
@@ -31,11 +35,11 @@ function NavBar() {
       expand="md"
       className={navColour ? 'sticky' : ''}
     >
-<Navbar.Brand as={Link} to="/">
+      <Container>
+        <Navbar.Brand as={Link} to="/">
           <p
             style={{
               color: '#fff',
-             
               fontWeight: '700',
               letterSpacing: '1px',
               fontSize: '28px',
@@ -43,13 +47,10 @@ function NavBar() {
           >
             Mayank Mehra
           </p>
-</Navbar.Brand>
-    <Container>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : 'expanded');
-          }}
+          onClick={() => updateExpanded(!expand)}
         >
           <span></span>
           <span></span>
