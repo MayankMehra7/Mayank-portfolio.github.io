@@ -11,7 +11,7 @@ function AboutCard() {
             Hello , I am <span className="purple">Mayank Mehra </span>
             from <span className="purple"> Kolkata, India.</span>
             <br />
-            I'm an AI/ML wizard, creating intelligent solutions with code.
+            I'm an AI/ML Engineer, creating intelligent solutions with code.
             <br />
             I am in my pre final year of BCA .
             <br />
@@ -28,12 +28,13 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Debate
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Cooking
+            </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Mayank Mehra</footer>
         </blockquote>
       </Card.Body>
     </Card>
