@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I'm an AI/ML Engineer, creating intelligent solutions with code.
             <br />
-            I am in my pre final year of BCA .
+            I am in my final year of BCA .
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
