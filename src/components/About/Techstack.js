@@ -1,23 +1,23 @@
-import React from 'react'
-import {Col, Row} from 'react-bootstrap'
-import {CgCPlusPlus} from 'react-icons/cg'
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
+import { CgCPlusPlus } from 'react-icons/cg';
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
-} from 'react-icons/di'
+} from 'react-icons/di';
 import {
   SiPytorch,
   SiTensorflow,
   SiPandas,
   SiScikitlearn,
-} from 'react-icons/si'
+} from 'react-icons/si';
 
 function Techstack() {
   return (
-    <Row style={{justifyContent: 'center', paddingBottom: '50px'}}>
+    <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -36,7 +36,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
       </Col>
@@ -50,7 +49,7 @@ function Techstack() {
         <SiScikitlearn />
       </Col>
     </Row>
-  )
+  );
 }
 
-export default Techstack
+export default Techstack;
