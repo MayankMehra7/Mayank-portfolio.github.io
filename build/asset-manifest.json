@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08e12b24.css",
+    "main.js": "/static/js/main.ce415135.js",
+    "static/js/570.0fd0d382.chunk.js": "/static/js/570.0fd0d382.chunk.js",
+    "static/js/317.a2a9cb83.chunk.js": "/static/js/317.a2a9cb83.chunk.js",
+    "static/media/avatar.jpg": "/static/media/avatar.c3c530b8590e38e5d57c.jpg",
+    "static/media/cats-dogs.png": "/static/media/cats-dogs.29ea56756c99502f8182.png",
+    "static/media/cv-game.jpg": "/static/media/cv-game.d611739d07d5ba3e3981.jpg",
+    "static/media/Mayank_Mehra_Resume.pdf": "/static/media/Mayank_Mehra_Resume.f89c9c98e1b8739ff3f4.pdf",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/stock-market.jpg": "/static/media/stock-market.a89307700f19679f14bc.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/color_detect.jpeg": "/static/media/color_detect.62de17faa7b6b3bb06ac.jpeg",
+    "static/media/penguin.jpeg": "/static/media/penguin.b5edc7e3690f631b579a.jpeg",
+    "static/media/iris_classifier.png": "/static/media/iris_classifier.8d0ab6931ee6c499ab36.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.08e12b24.css.map": "/static/css/main.08e12b24.css.map",
+    "main.ce415135.js.map": "/static/js/main.ce415135.js.map",
+    "570.0fd0d382.chunk.js.map": "/static/js/570.0fd0d382.chunk.js.map",
+    "317.a2a9cb83.chunk.js.map": "/static/js/317.a2a9cb83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08e12b24.css",
+    "static/js/main.ce415135.js"
+  ]
+}
