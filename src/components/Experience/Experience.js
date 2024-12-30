@@ -19,6 +19,15 @@ function Experience() {
           <Col md={6} className="Experience-column">
             <h3 className="Experience-title"><FaBriefcase /> Professional Experiences</h3>
             <ExperienceContent
+              title="Python Full stack webdevlopment Intern [Eduskills]"
+              date="October 2024 - December 2024"
+              content={[
+                "Gained relevant skills and experience in Full-Stack Web Development",
+                "It offers a comprehensive, hands-on training experience, focusing on building a real-world web product using the MERN stack and React..",
+                
+              ]}
+            />
+            <ExperienceContent
               title="Data Analytics Intern [Alteryx Inc.]"
               date="July 2024 - September 2024"
               content={[
