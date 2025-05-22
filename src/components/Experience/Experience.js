@@ -18,6 +18,21 @@ function Experience() {
         <Row className="Experience">
           <Col md={6} className="Experience-column">
             <h3 className="Experience-title"><FaBriefcase /> Professional Experiences</h3>
+
+
+            <ExperienceContent
+              title="MIST AI Intern [Juniper Networks]"
+              date="October 2024 - December 2024"
+              content={[
+                "Understood core concepts of Mist AI, including AI-powered insights, automation, and user experience optimization in enterprise networking.",
+                "Applied theoretical knowledge via interactive modules and real-world problem-solving tasks.",
+                "Strengthened skills in networking, AI integration, and automation relevant to modern enterprise IT environments.",
+
+
+                
+              ]}
+            />
+          
             <ExperienceContent
               title="Python Full stack webdevlopment Intern [Eduskills]"
               date="October 2024 - December 2024"
@@ -77,9 +92,10 @@ function Experience() {
               title="AI-ML Intern [Aws Academy]"
               date="September 2023 - November 2023"
               content={[
-                "Completed an internship focusing on web scraping and sentiment analysis for selected Emami products.",
-                "Worked on various sub-projects involving matrix & eigenvectors, regression, clustering and convolutional neural networks (CNNs).",
-                "Gained hands-on experience in these areas, contributing to data-driven insights and product analysis.",
+                "Completed an internship focused on deploying AI/ML solutions using AWS Academy's cloud infrastructure and services.",
+                "Worked on sub-projects involving model training, data preprocessing, and deployment using AWS tools like SageMaker and Lambda.",
+                "Gained hands-on experience in cloud-based machine learning workflows and real-world AI application development."
+
               ]}
             />
           </Col>
